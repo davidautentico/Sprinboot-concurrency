@@ -1,0 +1,1 @@
+INSERT INTO ACCOUNT(id, iban, balance) VALUES(1, '0039-3456-1234-1232', 100);

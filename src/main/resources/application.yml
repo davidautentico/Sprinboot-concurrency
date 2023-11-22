@@ -1,6 +1,6 @@
 server.port: 8090
 
-spring.application.name: jpastreamer-example
+spring.application.name: drosa-concurr
 
 spring.datasource.url: jdbc:h2:mem:testdb
 spring.datasource.driverClassName: org.h2.Driver
