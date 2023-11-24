@@ -6,11 +6,13 @@ spring.datasource.url: jdbc:h2:mem:testdb
 spring.datasource.driverClassName: org.h2.Driver
 spring.datasource.username: sa
 spring.datasource.password: password
+spring.datasource.auto-commit: false
 spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
 spring.h2.console.enabled: true
 
-spring.jpa.show-sql: true
-spring.jpa.properties.hibernate.format_sql: true
+spring.jpa.show-sql: false
+spring.jpa.properties.hibernate.format_sql: false
+spring.jpa.properties.jakarta.persistence.query.timeout: 10000
 
 spring:
 jpa:
